@@ -84,7 +84,7 @@ namespace GithubActionsLab
 
         public static double Power(string x, string y)
         {
-            // throw new NotImplementedException();
+            // throw new NotImplementedException(); for method
             return Math.Pow(double.Parse(x), double.Parse(y));
         }       
     }
