@@ -103,7 +103,7 @@ namespace GithubActionsLab
         [Test]
         public void Power_Valid_Nguyen()
         {
-            Assert.AreEqual(8, Program.Power("2", "4"));
+            Assert.AreEqual(8, Program.Power("2", "3"));
             Assert.AreEqual(25, Program.Power("5", "2"));
             Assert.AreEqual(27, Program.Power("3", "3"));
         }
